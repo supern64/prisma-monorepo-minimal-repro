@@ -3,6 +3,7 @@
   "module": "index.ts",
   "type": "module",
   "scripts": {
+    "init": "bun --cwd=packages/database prisma migrate deploy",
     "start": "bun packages/server/main.ts"
   },
   "devDependencies": {
