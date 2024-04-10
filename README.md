@@ -1,15 +1,9 @@
 # prisma-monorepo-minimal-repro
 
-To install dependencies:
+Repro for oven-sh/bun#10125
 
 ```bash
 bun install
+bun run init
+bun start
 ```
-
-To run:
-
-```bash
-bun run index.ts
-```
-
-This project was created using `bun init` in bun v1.1.3. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
